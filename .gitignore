@@ -1,0 +1,6 @@
+*.tar
+*.gz
+*.meta
+*.pyc
+*.pth.tar
+*.png
