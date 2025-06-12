@@ -4,3 +4,5 @@
 *.pyc
 *.pth.tar
 *.png
+
+!assets/*.png
