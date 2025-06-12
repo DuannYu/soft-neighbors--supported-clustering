@@ -12,19 +12,19 @@ class MyPath(object):
         assert(database in db_names)
 
         if database == 'cifar-10':
-            return '/home/duanyu/deep/DATASETS/cifar-10-batches-py/'
+            return '/path/to/cifar-10'
         
         elif database == 'cifar-20':
-            return '/home/duanyu/deep/DATASETS/cifar-100-python/'
+            return '/path/to/cifar-100'
 
         elif database == 'stl-10':
-            return '/home/duanyu/deep/DATASETS/'
+            return '/path/to/stl-10'
         
         elif database in ['imagenet', 'imagenet_50', 'imagenet_100', 'imagenet_200']:
             return '/path/to/imagenet/'
         
         elif database in ['imagenetdog']:
-            return '/home/duanyu/deep/DATASETS/imagenet_subsets/imagenetdogs'
+            return '/path/to/imagenetdogs'
         
         else:
             raise NotImplementedError
