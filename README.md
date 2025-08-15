@@ -39,5 +39,11 @@ python boosting.py --config_env configs/your_env.yml --config_exp configs/boosti
 ## Citation
 If you use our code, please cite our work as:
 ```
-waiting...
+@article{duan2025soft,
+  title={Soft Neighbors Supported Contrastive Clustering},
+  author={Duan, Yu and Chen, Huimin and Zhang, Runxin and Wang, Rong and Nie, Feiping and Li, Xuelong},
+  journal={IEEE Transactions on Image Processing},
+  year={2025},
+  publisher={IEEE}
+}
 ```
